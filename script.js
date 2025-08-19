@@ -21,16 +21,15 @@ setLang(localStorage.getItem('tivco_lang') || 'es');
 // 3) Todos los tracks se precargan al iniciar (preload 'auto').
 
 const tracks = [
-  { title: 'Two Percherones',                    src: ['audio/01-two-percherones.mp3','audio/01-two-percherones.wav'] },
-  { title: 'Where the Trail Falters',            src: ['audio/02-where-the-trail-falters.mp3','audio/02-where-the-trail-falters.wav'] },
-  { title: 'Jit Jot (Notes from a Moving Saloon)', src: ['audio/03-jit-jot.mp3','audio/03-jit-jot.wav'] },
-  { title: 'Two Percherones looking for the tune', src: ['audio/04-two-percherones-looking-for-the-tune.mp3','audio/04-two-percherones-looking-for-the-tune.wav'] },
-  { title: 'Resembles, Reprise (In Slow Dust)',  src: ['audio/05-resembles-reprise.mp3','audio/05-resembles-reprise.wav'] },
-  { title: 'A cavalcade, bellowing like thunder', src: ['audio/06-a-cavalcade-bellowing-like-thunder.mp3','audio/06-a-cavalcade-bellowing-like-thunder.wav'] },
-  { title: 'Desert Slows, Reprise (After Sundown)', src: ['audio/07-desert-slows-reprise.mp3','audio/07-desert-slows-reprise.wav'] },
-  { title: 'Interludio',                          src: ['audio/08-interludio.mp3','audio/08-interludio.wav'] },
-  { title: 'Last Call in San José del Rincón',    src: ['audio/09-last-call-in-san-jose-del-rincon.mp3','audio/09-last-call-in-san-jose-del-rincon.wav'] },
+  { title: '01 Anfang', src: ['audio/01 - Anfang.mp3','audio/01-anfang.wav'] },
+  { title: '02 Mgła', src: ['audio/02-mgla.mp3','audio/02-mgla.wav'] },
+  { title: '03 Sakana', src: ['audio/03-sakana.mp3','audio/03-sakana.wav'] },
+  { title: '04 Mirall', src: ['audio/04-mirall.mp3','audio/04-mirall.wav'] },
+  { title: '05 Il ricordo dell’ombra', src: ['audio/05-il-ricordo-dell-ombra.mp3','audio/05-il-ricordo-dell-ombra.wav'] },
+  { title: '06 Cendres', src: ['audio/06-cendres.mp3','audio/06-cendres.wav'] },
+  { title: '07 Syklin loppu', src: ['audio/07-syklin-loppu.mp3','audio/07-syklin-loppu.wav'] },
 ];
+
 
 const mainPlayer = document.getElementById('mainPlayer');
 const playlistEl = document.getElementById('playlist');
