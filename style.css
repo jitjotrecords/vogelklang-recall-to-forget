@@ -11,7 +11,7 @@
 
 /* ===== Albertus Medium para header ===== */
 @font-face {
-  font-family: 'Albertus Medium';
+  font-family: 'Inter';
   src: url('fonts/Inter_28pt-Black.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -24,7 +24,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   justify-content: center;
-  background: url('img/BG.png') no-repeat center center fixed;
+  background: url('img/BG.jpg') no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   padding: 0;
