@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Ivonne Van Cleef Orquesta — Reel Ghosts & River Echoes (Press Kit)</title>
+  <meta name="description" content="Press kit pre-release para sellos y prensa. Player privado, textos ES/EN y materiales descargables.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preload" as="image" href="img/cover.jpg">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <!-- Reemplazar por logo si lo desean -->
+      <h1 class="brand-title">The Ivonne Van Cleef Orquesta</h1>
+      <p class="brand-subtitle">Reel Ghosts &amp; River Echoes — Pre‑release Press Kit</p>
+    </div>
+    <nav class="lang-switch">
+      <!-- Selector de idioma -->
+      <button class="lang-btn" data-lang="es" aria-pressed="true">ES</button>
+      <button class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <!-- Reemplazar cover.jpg por la tapa del álbum -->
+      <img class="hero-cover" src="img/cover.jpg" alt="Album cover placeholder">
+      <div class="hero-copy">
+        <div class="lang es">
+          <h2>Escucha privada del nuevo álbum</h2>
+          <p>Material confidencial para sellos y prensa. No distribuir.</p>
+        </div>
+        <div class="lang en" hidden>
+          <h2>Private listening — new album</h2>
+          <p>Confidential material for labels and press. Do not distribute.</p>
+        </div>
+
+        <div class="player-card">
+          <div class="now-playing">
+            <span id="nowPlayingIndex">01</span>
+            <span id="nowPlayingTitle">Two Percherones</span>
+          </div>
+          <audio id="mainPlayer" controls preload="auto"></audio>
+
+          <ul id="playlist" class="playlist">
+            <!-- Los títulos se muestran aquí; los archivos se definen en script.js -->
+            <li data-index="0"><span class="track-num">01</span><span class="track-title">Two Percherones</span><span class="duration"></span></li>
+            <li data-index="1"><span class="track-num">02</span><span class="track-title">Where the Trail Falters</span><span class="duration"></span></li>
+            <li data-index="2"><span class="track-num">03</span><span class="track-title">Jit Jot (Notes from a Moving Saloon)</span><span class="duration"></span></li>
+            <li data-index="3"><span class="track-num">04</span><span class="track-title">Two Percherones looking for the tune</span><span class="duration"></span></li>
+            <li data-index="4"><span class="track-num">05</span><span class="track-title">Resembles, Reprise (In Slow Dust)</span><span class="duration"></span></li>
+            <li data-index="5"><span class="track-num">06</span><span class="track-title">A cavalcade, bellowing like thunder</span><span class="duration"></span></li>
+            <li data-index="6"><span class="track-num">07</span><span class="track-title">Desert Slows, Reprise (After Sundown)</span><span class="duration"></span></li>
+            <li data-index="7"><span class="track-num">08</span><span class="track-title">Interludio</span><span class="duration"></span></li>
+            <li data-index="8"><span class="track-num">09</span><span class="track-title">Last Call in San José del Rincón</span><span class="duration"></span></li>
+          </ul>
+          <div class="download-cta">
+            <a class="btn" href="docs/dossier.pdf" download>⬇ Descargar dossier PDF</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECCIÓN TIVCO ===== -->
+    <section class="content two-col" id="tivco">
+      <div>
+        <div class="lang es">
+          <h3>The Ivonne Van Cleef Orquesta</h3>
+          <!-- Reemplazar este texto -->
+          <p>Proyecto transfronterizo que cruza folk espectral, ambientes western y texturas analógicas. TIVCO trabaja con instrumentación orgánica, cintas y capas de ruido amable para construir paisajes de ruta y río.</p>
+        </div>
+        <div class="lang en" hidden>
+          <h3>The Ivonne Van Cleef Orquesta</h3>
+          <!-- Replace this text -->
+          <p>A borderless project blending spectral folk, western atmospheres and analog textures. TIVCO builds road‑and‑river soundscapes with organic instruments, tape and gentle noise layers.</p>
+        </div>
+      </div>
+      <div class="media-box">
+        <!-- Reemplazar por foto de prensa -->
+        <img src="img/tivco.jpg" alt="TIVCO press photo placeholder">
+        <small class="hint">Reemplazar <code>img/tivco.jpg</code></small>
+      </div>
+    </section>
+
+    <!-- ===== SECCIÓN ÁLBUM ===== -->
+    <section class="content" id="album">
+      <div class="lang es">
+        <h3>Sobre el álbum — <em>Reel Ghosts &amp; River Echoes</em></h3>
+        <!-- Reemplazar este texto -->
+        <p>Grabado entre costas e islas del litoral. Guitarras, percusiones mínimas y grabaciones de campo se entrelazan en un relato de fantasmas de cinta y ecos de agua.</p>
+        <ul class="meta">
+          <li><strong>Grabación/Mix:</strong> [nombres]</li>
+          <li><strong>Invitados:</strong> [nombres]</li>
+          <li><strong>Año:</strong> 2025</li>
+        </ul>
+      </div>
+      <div class="lang en" hidden>
+        <h3>About the album — <em>Reel Ghosts &amp; River Echoes</em></h3>
+        <!-- Replace this text -->
+        <p>Recorded across riverbanks and islands. Guitars, sparse percussion and field recordings weave a tale of tape ghosts and water echoes.</p>
+        <ul class="meta">
+          <li><strong>Recording/Mix:</strong> [names]</li>
+          <li><strong>Guests:</strong> [names]</li>
+          <li><strong>Year:</strong> 2025</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== SECCIÓN JIT JOT ===== -->
+    <section class="content" id="jitjot">
+      <div class="lang es">
+        <h3>Jit Jot Records</h3>
+        <!-- Reemplazar este texto breve -->
+        <p>Sello y productora independiente de Rosario, Argentina. Ediciones artesanales en formatos físicos y curaduría de eventos que celebran la diversidad musical y el espíritu DIY.</p>
+      </div>
+      <div class="lang en" hidden>
+        <h3>Jit Jot Records</h3>
+        <!-- Replace this short text -->
+        <p>Independent label and production house from Rosario, Argentina. Handmade physical editions and events celebrating musical diversity and the DIY spirit.</p>
+      </div>
+    </section>
+
+    <!-- ===== SECCIÓN OBJETIVOS ===== -->
+    <section class="content" id="goals">
+      <div class="lang es">
+        <h3>Objetivo</h3>
+        <p>Buscamos <strong>apoyo para edición internacional</strong> (vinilo/cassette/digital), distribución y prensa. Interesados escribir a <a href="mailto:contacto@jitjotrecords.com">contacto@jitjotrecords.com</a>.</p>
+      </div>
+      <div class="lang en" hidden>
+        <h3>Goal</h3>
+        <p>We are seeking <strong>international release support</strong> (vinyl/cassette/digital), distribution and press. Inquiries: <a href="mailto:contacto@jitjotrecords.com">contacto@jitjotrecords.com</a>.</p>
+      </div>
+    </section>
+
+    <!-- ===== SECCIÓN CONTACTO ===== -->
+    <section class="content" id="contact">
+      <div class="lang es">
+        <h3>Contacto</h3>
+        <ul class="meta">
+          <li><strong>Email:</strong> <a href="mailto:contacto@jitjotrecords.com">contacto@jitjotrecords.com</a></li>
+          <li><strong>Instagram:</strong> <a href="https://www.instagram.com/jit_jot_records" target="_blank" rel="noopener">jit_jot_records</a></li>
+        </ul>
+      </div>
+      <div class="lang en" hidden>
+        <h3>Contact</h3>
+        <ul class="meta">
+          <li><strong>Email:</strong> <a href="mailto:contacto@jitjotrecords.com">contacto@jitjotrecords.com</a></li>
+          <li><strong>Instagram:</strong> <a href="https://www.instagram.com/jit_jot_records" target="_blank" rel="noopener">jit_jot_records</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="lang es">
+      <small>© Jit Jot Records — Material confidencial para prensa/sellos.</small>
+    </div>
+    <div class="lang en" hidden>
+      <small>© Jit Jot Records — Confidential material for press/labels.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
