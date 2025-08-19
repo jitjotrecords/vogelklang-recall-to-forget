@@ -21,7 +21,7 @@ setLang(localStorage.getItem('tivco_lang') || 'es');
 // 3) Todos los tracks se precargan al iniciar (preload 'auto').
 
 const tracks = [
-  { title: '01 Anfang', src: ['audio/01 - Anfang.mp3','audio/01-anfang.wav'] },
+  { title: '01 Anfang', src: ['audio/01-anfang.mp3','audio/01-anfang.wav'] },
   { title: '02 Mgła', src: ['audio/02-mgla.mp3','audio/02-mgla.wav'] },
   { title: '03 Sakana', src: ['audio/03-sakana.mp3','audio/03-sakana.wav'] },
   { title: '04 Mirall', src: ['audio/04-mirall.mp3','audio/04-mirall.wav'] },
