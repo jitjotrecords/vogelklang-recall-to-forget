@@ -22,7 +22,7 @@ setLang(localStorage.getItem('tivco_lang') || 'es');
 
 const tracks = [
   { title: '01 Anfang', src: ['audio/01-anfang.mp3','audio/01-anfang.wav'] },
-  { title: '02 Mgła', src: ['audio/02-mgla.mp3','audio/02-mgla.wav'] },
+  { title: '02 Mgla', src: ['audio/02-mgla.mp3','audio/02-mgla.wav'] },
   { title: '03 Sakana', src: ['audio/03-sakana.mp3','audio/03-sakana.wav'] },
   { title: '04 Mirall', src: ['audio/04-mirall.mp3','audio/04-mirall.wav'] },
   { title: '05 Il ricordo dell’ombra', src: ['audio/05-il-ricordo-dell-ombra.mp3','audio/05-il-ricordo-dell-ombra.wav'] },
