@@ -3,7 +3,7 @@
   --bg: #111;
   --fg: #f5f5f5;
   --muted: #b9b9b9;
-  --accent: #00acec; /* antes era #ff6a00 */
+  --accent: #2c2b2a; /* cambiado al nuevo color */
   --paper: radial-gradient(200% 150% at 10% 0%, rgba(255,255,255,0.06), transparent 60%), 
            radial-gradient(160% 120% at 90% 20%, rgba(255,255,255,0.04), transparent 70%),
            linear-gradient(0deg, rgba(255,255,255,0.03), rgba(255,255,255,0.03));
@@ -40,7 +40,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  text-align: justify; /* textos justificados */
+  text-align: justify;
 }
 
 /* ===== Header ===== */
@@ -58,16 +58,16 @@ main {
   margin: 0;
   font-size: clamp(43px, 5vw, 48px);
   letter-spacing: .5px;
-  text-transform: ;
-  color: fff;
-  text-align: justify; /* justificado */
+  color: #fff; /* corregido */
+  text-align: center; /* centrado */
 }
+
 .brand-subtitle {
   font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Inter, Helvetica, Arial, sans-serif;
   margin: 6px 0 16px;
-  color: #2c2b2a;
+  color: var(--accent); /* usa tu nuevo color */
   font-size: clamp(16px, 2.2vw, 18px);
-  text-align: justify; /* justificado */
+  text-align: center; /* centrado */
 }
 
 /* Botones de idioma */
@@ -103,7 +103,7 @@ main {
   border-radius: 16px;
   max-width: 960px;
   margin: 0 auto;
-  text-align: justify; /* justificado */
+  text-align: justify;
 }
 
 .hero-copy {
@@ -112,7 +112,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: justify; /* justificado */
+  text-align: justify;
 }
 
 /* ===== Player ===== */
@@ -121,8 +121,8 @@ main {
   border: 1px solid #222;
   border-radius: 16px;
   padding: 14px;
- width: 90%;
-  text-align: justify; /* justificado */
+  width: 90%;
+  text-align: justify;
 }
 .now-playing {
   display: flex;
@@ -191,7 +191,7 @@ main {
   border-radius: 12px;
   margin: 16px 0;
   width: 90%;
-  text-align: justify; /* justificado */
+  text-align: justify;
 }
 
 .content h3 {
@@ -201,7 +201,7 @@ main {
   margin-bottom: 12px;
   font-size: clamp(20px, 3vw, 28px);
   color: #fff;
-  text-align: justify; /* justificado */
+  text-align: center;
 }
 .content .meta {list-style:none; padding:0; margin:10px 0 0; color: var(--muted); text-align: justify;}
 .content .meta li {margin:4px 0}
@@ -212,19 +212,12 @@ a {
   font-weight: 700;
   text-decoration: none;
 }
-a:hover {color: #00acec;}
+a:hover {color: var(--accent);} /* hover actualizado */
 
 /* ===== Columnas ===== */
 .two-col {display: grid; grid-template-columns: 1.2fr .8fr; gap: 24px;}
 .media-box img {width: 100%; border-radius:12px; border:1px solid #222; background:#000}
 .hint {display:block; color:#777; margin-top:6px; text-align: justify;}
-
-/* Centrar subtítulo del header */
-.brand-subtitle {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 /* Centrar contenido del footer */
 .site-footer {
