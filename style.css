@@ -58,7 +58,7 @@ main {
   margin: 0;
   font-size: clamp(32px, 5vw, 48px);
   letter-spacing: .5px;
-  text-transform: uppercase;
+  text-transform: ;
   color: #fff;
   text-align: justify; /* justificado */
 }
